@@ -1,0 +1,27 @@
+/*Configuración del fondo de la pagina y tamaño de la letra en general.*/
+html {
+    background-color:rgba(255, 228, 196, 0.581);
+    font-size: 24px;
+}
+
+/*configuración de los articulos*/
+article {
+    font-size:22px;
+    font-family: Tahoma;
+}
+
+.imagen {
+    display: flex;
+    justify-content:left;
+
+
+}
+
+/*configura elementos de las listas*/
+li {
+    font-size: 22px;
+    font-family: Verdana;
+}
+
+
+
