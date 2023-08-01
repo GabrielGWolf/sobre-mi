@@ -6,11 +6,17 @@ h1 {
     color:aqua;
     font-family: Verdana;
     font-size: 300%;
+    border: 3px solid powderblue;
+    padding: 30px;
+    margin: 50px;
+
 }
 
 p{
     color:azure;
     font-family: Courier;
     font-size: 150%;
+    margin: 75px;
+    padding: 30px;
     
 }
