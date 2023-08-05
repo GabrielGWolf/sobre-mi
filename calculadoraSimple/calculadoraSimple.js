@@ -47,5 +47,12 @@ function calcularResultado() {
             return;
     }
 
-    document.getElementById("Resultado").textContent = "resultado: " + Resultado;
+    document.getElementById("Resultado").textContent = "Resultado = " + Resultado;
+}
+
+// Función para limpiar la calculadora y poder utilizarla nuevamente sin tener que recargar la pagina
+function limpiarCalculadora() {
+    document.getElementById("num1").value = "";
+    document.getElementById("num2").value = "";
+    document.getElementById("Resultado").textContent = "Resultado = " + 0;
 }

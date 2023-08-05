@@ -1,3 +1,4 @@
+/* Estilo general de la pagina */
 body {
     font-family: Arial, sans-serif;
     background-color:black;
@@ -8,16 +9,20 @@ body {
     margin: 0;
 }
 
+/* estilo del cuadro de la calculadora */
 .Calculadora {
     background-color:antiquewhite;
     padding: 25px;
     border-radius: 10px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    max-width: 600px;
+    margin: 0 auto;
 }
 
+/*estilo de los cuadros de input*/
 input[type="number"], select, button {
     display: block;
-    width: 80%;
+    width: 90%;
     padding: 10px;
     margin-bottom: 10px;
     border: 2px solid gray;
@@ -25,12 +30,41 @@ input[type="number"], select, button {
     font-size: 22px;
 }
 
-button {
+
+
+/* estilo del boton Calcular*/
+button.Calcular {
     background-color: green;
     color: white;
     cursor: pointer;
 }
-
-button:hover {
+button.Calcular:hover {
     background-color: lightgreen;
+}
+
+/* estilo para el boton Limpiar*/
+
+button.Limpiar {
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+    width: 50%;
+    height: 50%;
+    font-size: 80%;
+}
+button.Limpiar:hover {
+    background-color: lightblue;
+}
+
+/* Estilo para el resultado */
+p#Resultado {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/* Estilo para el título */
+h1 {
+    text-align: center;
+    color: black;
+    font-weight: bolder;
 }
