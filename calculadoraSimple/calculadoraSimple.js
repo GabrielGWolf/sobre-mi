@@ -1,3 +1,28 @@
+// Función para realizar la suma
+function suma(num1, num2) {
+    return num1 + num2;
+}
+
+// Función para realizar la resta
+function resta(num1, num2) {
+    return num1 - num2;
+}
+
+// Función para realizar la multiplicación
+function multiplicacion(num1, num2) {
+    return num1 * num2;
+}
+
+// Función para realizar la división
+function division(num1, num2) {
+    if (num2 === 0) {
+        alert("No se puede dividir por cero.");
+        return;
+    }
+    return num1 / num2;
+}
+
+// Función para obtener el resultado de la operación seleccionada
 function calcularResultado() {
     var num1 = parseFloat(document.getElementById("num1").value);
     var num2 = parseFloat(document.getElementById("num2").value);
@@ -5,27 +30,22 @@ function calcularResultado() {
     var Resultado = 0;
 
     switch (operador) {
-        //suma//
         case "+":
-            Resultado = num1 + num2;
+            Resultado = suma(num1, num2);
             break;
-        //resta//
         case "-":
-            Resultado = num1 - num2;
+            Resultado = resta(num1, num2);
             break;
-        //multiplicacion//
         case "*":
-            Resultado = num1 * num2;
+            Resultado = multiplicacion(num1, num2);
             break;
-        //division//
         case "/":
-            Resultado = num1 / num2;
+            Resultado = division(num1, num2);
             break;
-        //default//
         default:
             alert("Operador no válido");
             return;
     }
 
-    document.getElementById("Resultado").textContent = "Resultado = " + Resultado;
+    document.getElementById("Resultado").textContent = "resultado: " + Resultado;
 }
