@@ -16,7 +16,7 @@ function multiplicacion(num1, num2) {
 // Función para realizar la división
 function division(num1, num2) {
     if (num2 === 0) {
-        alert("No se puede dividir por cero.");
+        window.alert("No se puede dividir por cero, utilice el botón 'limpiar' e inicie nuevamente.");
         return;
     }
     return num1 / num2;
