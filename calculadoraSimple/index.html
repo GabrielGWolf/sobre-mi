@@ -10,7 +10,7 @@
 
 <div class=Calculadora> 
     <p><h1> Calculadora Simple</h1></p>
-    <p><input type="number" id="num1" placeholder="Primer número"></p>
+    <p><input type="number" id="num1" placeholder="Primer número" required="required" minlength="1"></p>
     <p><label for="operador"> Opeación a realizar</label>
            <select name="operador" id="operador">
             <option value="+">+ (suma)</option>
@@ -19,7 +19,7 @@
             <option value="/">/ (division)</option>
             </select>
     </p>
-    <p>    <input type="number" id="num2" placeholder="Segundo número"></p>
+    <p>    <input type="number" id="num2" placeholder="Segundo número" minlength="1"></p>
     <!-- BOTON CALCULAR -->
     <p>    <button onclick="calcularResultado()" class="Calcular">Calcular</button> </p>
     <!-- RESULTADO -->

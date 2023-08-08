@@ -24,11 +24,20 @@ function division(num1, num2) {
 
 // Función para obtener el resultado de la operación seleccionada
 function calcularResultado() {
-    var num1 = parseFloat(document.getElementById("num1").value);
-    var num2 = parseFloat(document.getElementById("num2").value);
-    var operador = document.getElementById("operador").value;
-    var Resultado = 0;
+    let num1 = parseFloat(document.getElementById("num1").value);
+    let num2 = parseFloat(document.getElementById("num2").value);
+    let operador = document.getElementById("operador").value;
+    let Resultado = 0;
 
+// validación de datos numericos - ambos campos deben estar completos para que la calculadora funcione
+
+    if (isNaN(num1) || isNaN(num2)) {
+        alert("Error: Por favor, Ingrese valores numéricos válidos en ambos campos.");
+        return;
+}
+
+
+// eleccion de la función de acuerdo al operador
     switch (operador) {
         case "+":
             Resultado = suma(num1, num2);
