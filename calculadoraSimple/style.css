@@ -1,12 +1,18 @@
 /* Estilo general de la pagina */
 body {
     font-family: Arial, sans-serif;
+    /* agergue una imagen de fondo */
+    background-image: url(fondo.jpg);
+    background-position: center;
+    /* background-repeat: norepeat-;
+    background-clip:border-box; */
     background-color:black;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
     margin: 0;
+    ;
 }
 
 /* Estilo para el título */
@@ -14,11 +20,12 @@ h1 {
     text-align: center;
     color: black;
     font-weight: bolder;
+    text-shadow: 4px 4px 5px gray;
 }
 
 /* estilo del cuadro de la calculadora */
 .Calculadora {
-    background-color:antiquewhite;
+    background-color:cornsilk;
     padding: 25px;
     border-radius: 10px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
@@ -32,7 +39,7 @@ input[type="number"], select, button {
     width: 90%;
     padding: 10px;
     margin-bottom: 10px;
-    border: 2px solid gray;
+    border: 3px solid gray;
     border-radius: 15px;
     font-size: 22px;
 }

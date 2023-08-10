@@ -36,7 +36,6 @@ function calcularResultado() {
         return;
 }
 
-
 // eleccion de la función de acuerdo al operador
     switch (operador) {
         case "+":

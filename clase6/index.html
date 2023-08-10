@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Clase 10-08-23</title>
+</head>
+<body>
+    <h2>Crear select - Versión 1 - base</h2>
+    <p><select name="prueba1" id="prueba1"> prueba1
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+    </select>
+    </p>
+    <br>
+    <hr>
+
+    <h2>Crear select - Versión 1 - base con opcion seleccionada</h2>
+    <p><select name="prueba1" id="prueba1"> prueba1
+        <option value="1">1</option>
+        <option value="2" selected>opcion 2 seleccionada</option>
+        <option value="3">3</option>
+    </select>
+    </p>
+
+    <p><h2>Crear select - Versión 2 - con una opcion no seleccionable</h2></p>
+    <p><select name="prueba2" id="prueba2"> prueba2
+        <option disabled selected>prueba2</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+    </select>
+    </p>
+
+    <p><h2>Crear select - Versión 3 - con categroías internas</h2></p>
+    <p>
+        <select name="" id="">
+            <optgroup label="categoria1">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+            </optgroup>
+            <optgroup label="categoria2">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+            </optgroup>
+        </select>
+    </p>
+    
+    <h2>Elegí el color de fondo de la pagina</h2>
+    <p><select name="color" id="color">
+        <option value="rojo">Rojo</option>
+        <option value="azul">Azul</option>
+        <option value="amarillo">Amarillo</option>
+        <option value="verde">Verde</option>
+    </select>
+    <button id="cambiar">Cambiar fondo</button>
+    <button id="cambiar1" onclick="cambiarColor();">Cambiar fondo desde HTML</button>
+    </p>
+    <br>
+    <hr>
+    <script src="script.js"></script>
+
+</body>
+</html>
