@@ -54,6 +54,11 @@ function calcularResultado() {
             alert("Operador no válido");
             return;
     }
+/* Limitar los resultados a un máximo de 20 caracteres */
+    if (Resultado > 99999999999999999999 || Resultado < -99999999999999999999) {
+        alert("El resultado es demasiado grande para mostrarse en pantalla")
+        Resultado = 0
+    }
 
     document.getElementById("Resultado").textContent = "Resultado = " + Resultado;
 }

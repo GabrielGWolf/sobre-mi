@@ -1,39 +1,25 @@
 # Calculadora simple
 
-El proyecto es crear una calculadora simple que pueda operar con 2 numeros, realizando 4 operaciones matemáticas básicas: Suma, Resta, Multiplicación y Divisón. 
+El proyecto es crear una calculadora simple que pueda operar con 2 numeros, realizando 4 operaciones matemáticas básicas: **Suma, Resta, Multiplicación y Divisón**.
 
 ## Comenzando 🚀
 
-_Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas._
+Dentro del marco de Argentina Programa, y especificamente dentro del curso "Paginas Web con Contenido Dinámico" dictado por FAMAF, este es el Practico1. 
 
-Mira **Deployment** para conocer como desplegar el proyecto.
+Para visualizar esta calculadora sólo se necesita abrirla en un navegador. 
+La calcula consta de 3 archivos conectados: Index.html, CalculadoraSimple.js y style.css
 
 
 ### Pre-requisitos 📋
 
 _Que cosas necesitas para instalar el software y como instalarlas_
 
-```
-Da un ejemplo
-```
-
-### Instalación 🔧
-
-_Una serie de ejemplos paso a paso que te dice lo que debes ejecutar para tener un entorno de desarrollo ejecutandose_
-
-_Dí cómo será ese paso_
+No se necesita instalar nada especial para poder correr este programa, sólo con abrirlo en una pagina web debería ser suficiente. 
+Para escribir el codigo se utilizó Visual Studio Code. 
 
 ```
 Da un ejemplo
 ```
-
-_Y repite_
-
-```
-hasta finalizar
-```
-
-_Finaliza con un ejemplo de cómo obtener datos del sistema o como usarlos para una pequeña demo_
 
 ## Ejecutando las pruebas ⚙️
 
