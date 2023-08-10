@@ -9,6 +9,13 @@ body {
     margin: 0;
 }
 
+/* Estilo para el título */
+h1 {
+    text-align: center;
+    color: black;
+    font-weight: bolder;
+}
+
 /* estilo del cuadro de la calculadora */
 .Calculadora {
     background-color:antiquewhite;
@@ -60,11 +67,4 @@ button.Limpiar:hover {
 p#Resultado {
     font-size: 30px;
     font-weight: bold;
-}
-
-/* Estilo para el título */
-h1 {
-    text-align: center;
-    color: black;
-    font-weight: bolder;
 }
