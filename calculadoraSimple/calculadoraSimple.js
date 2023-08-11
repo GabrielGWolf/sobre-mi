@@ -55,8 +55,8 @@ function calcularResultado() {
             return;
     }
 /* Limitar los resultados a un máximo de 20 caracteres */
-    if (Resultado > 99999999999999999999 || Resultado < -99999999999999999999) {
-        alert("El resultado es demasiado grande para mostrarse en pantalla")
+    if (Resultado > 99999999999999999999 || Resultado < -9999999999999999999) {
+        alert("El resultado es demasiado largo para mostrarse en pantalla - el máximo resultado que puede mostrar esta calculadora es de 20 caracteres")
         Resultado = 0
     }
 

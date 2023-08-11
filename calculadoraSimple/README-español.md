@@ -15,14 +15,16 @@ La calcula consta de 3 archivos conectados: Index.html, CalculadoraSimple.js y s
 No se necesita instalar nada especial para poder correr este programa, sólo con abrirlo en una pagina web debería ser suficiente. 
 Para escribir el codigo se utilizó Visual Studio Code. 
 
-```
-Da un ejemplo
-```
 
 ### Caracteristicas del Programa
 
-La calculadora permite realizar 4 operaciónes básicas: Suma, Resta, Multiplicación y División. 
-Los resultados están limitados a un máximo de 20 caracteres. Si la respuesta excede esa cantidad de carateres, se emite una alerta diciendo que el resultado es demasiado "largo" para ser mostrado en la interfaz. 
+La calculadora permite realizar 4 operaciónes básicas: Suma, Resta, Multiplicación y División, las cuales pueden elegirse en un menu desplegable. 
+
+El usuario sólo puede ingresar numeros, o utilizar el caracter . (punto) para determinar decimales. Si el usuario ingresa otro caracter que no sea un numero, le devuelve una alerta indicando que solo debe utilizar numeros. 
+
+Si el usuario intenta dividir por 0, devuelve una alerta indicando que esta operación no es posible. 
+
+Los resultados están limitados a un máximo de 20 caracteres. Si la respuesta excede esa cantidad de carateres, se emite una alerta diciendo que el resultado es demasiado "largo" para ser mostrado en la interfaz, u el resultado mostrado es siempre 0
 
 ## Ejecutando las pruebas ⚙️
 
