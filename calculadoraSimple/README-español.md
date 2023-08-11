@@ -15,7 +15,6 @@ La calcula consta de 3 archivos conectados: Index.html, CalculadoraSimple.js y s
 No se necesita instalar nada especial para poder correr este programa, sólo con abrirlo en una pagina web debería ser suficiente. 
 Para escribir el codigo se utilizó Visual Studio Code. 
 
-
 ### Caracteristicas del Programa
 
 La calculadora permite realizar 4 operaciónes básicas: Suma, Resta, Multiplicación y División, las cuales pueden elegirse en un menu desplegable. 
@@ -56,6 +55,14 @@ se ingresaron simbolos en los campos (+, -, *, /) y devuelve el mensaje de alert
 123456789123456789123456789 * 123456789123456789123456789 = devuelve el alerta esperado
 -123456789123456789123456789 + -123456789123456789123456789 = devuelve el alerta esperado
 ```
+
+## Caracteristicas de CSS 
+
+* **Paleta de colores utilizada:** https://coolors.co/palette/fffcf2-ccc5b9-403d39-252422-eb5e28
+
+* **Imagen de fondo:** Imagen de derechos libres sacada de una busqueda en Google - (no recuerdo la fuente)
+
+
 ## Construido con 🛠️
 
 Se utilizaron los lenguajes HTML, CSS y JAVASCRIPT. 
