@@ -12,8 +12,6 @@ La calcula consta de 3 archivos conectados: Index.html, CalculadoraSimple.js y s
 
 ### Pre-requisitos 📋
 
-_Que cosas necesitas para instalar el software y como instalarlas_
-
 No se necesita instalar nada especial para poder correr este programa, sólo con abrirlo en una pagina web debería ser suficiente. 
 Para escribir el codigo se utilizó Visual Studio Code. 
 
@@ -21,72 +19,59 @@ Para escribir el codigo se utilizó Visual Studio Code.
 Da un ejemplo
 ```
 
+### Caracteristicas del Programa
+
+La calculadora permite realizar 4 operaciónes básicas: Suma, Resta, Multiplicación y División. 
+Los resultados están limitados a un máximo de 20 caracteres. Si la respuesta excede esa cantidad de carateres, se emite una alerta diciendo que el resultado es demasiado "largo" para ser mostrado en la interfaz. 
+
 ## Ejecutando las pruebas ⚙️
 
-_Explica como ejecutar las pruebas automatizadas para este sistema_
-
-### Analice las pruebas end-to-end 🔩
-
-_Explica que verifican estas pruebas y por qué_
+Se realizaron pruebas con todos los operadores posibles. 
+Las pruebas realizadas fueron:
 
 ```
-Da un ejemplo
+2+2 = devuelve resultado correcto
+2-2 = devuelve resultado correcto
+2*2 = devuelve resultado correcto
+2/2 = devuelve resultado correcto
 ```
 
-### Y las pruebas de estilo de codificación ⌨️
-
-_Explica que verifican estas pruebas y por qué_
+```
+-2+-2 = devuelve resultado correcto
+-2--2 = devuelve resultado correcto
+-2*2 = devuelve resultado correcto
+-2/-2 = devuelve resultado correcto
+```
 
 ```
-Da un ejemplo
+2/0 = devuelve mensaje de no se puede dividir por 0
 ```
 
-## Despliegue 📦
-
-_Agrega notas adicionales sobre como hacer deploy_
-
+```
+123456789123456789123456789 + 123456789123456789123456789 = devuelve el alerta esperado
+123456789123456789123456789 * 123456789123456789123456789 = devuelve el alerta esperado
+-123456789123456789123456789 + -123456789123456789123456789 = devuelve el alerta esperado
+```
 ## Construido con 🛠️
 
-_Menciona las herramientas que utilizaste para crear tu proyecto_
+Se utilizaron los lenguajes HTML, CSS y JAVASCRIPT. 
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - El framework web usado
-* [Maven](https://maven.apache.org/) - Manejador de dependencias
-* [ROME](https://rometools.github.io/rome/) - Usado para generar RSS
+Utilicé ChatGTP para hacer preguntas sobre todo de CSS con algunos conceptos que no sabía utilizar, contrastando las respuestas con w3school para entender el funcionamiento del código devuelto por la IA
 
 ## Contribuyendo 🖇️
 
-Por favor lee el [CONTRIBUTING.md](https://gist.github.com/villanuevand/xxxxxx) para detalles de nuestro código de conducta, y el proceso para enviarnos pull requests.
-
-## Wiki 📖
-
-Puedes encontrar mucho más de cómo utilizar este proyecto en nuestra [Wiki](https://github.com/tu/proyecto/wiki)
-
 ## Versionado 📌
 
-Usamos [SemVer](http://semver.org/) para el versionado. Para todas las versiones disponibles, mira los [tags en este repositorio](https://github.com/tu/proyecto/tags).
+Esta sería la versión 1.0
 
 ## Autores ✒️
 
-_Menciona a todos aquellos que ayudaron a levantar el proyecto desde sus inicios_
-
-* **Andrés Villanueva** - *Trabajo Inicial* - [villanuevand](https://github.com/villanuevand)
-* **Fulanito Detal** - *Documentación* - [fulanitodetal](#fulanito-de-tal)
-
-También puedes mirar la lista de todos los [contribuyentes](https://github.com/your/project/contributors) quíenes han participado en este proyecto. 
+* **Grabiel G. Wolf** - [GabrielGWolf](https://github.com/GabrielGWolf)
 
 ## Licencia 📄
 
-Este proyecto está bajo la Licencia (Tu Licencia) - mira el archivo [LICENSE.md](LICENSE.md) para detalles
+Protecto sin licencia. Código Libre 
 
 ## Expresiones de Gratitud 🎁
 
-* Comenta a otros sobre este proyecto 📢
-* Invita una cerveza 🍺 o un café ☕ a alguien del equipo. 
-* Da las gracias públicamente 🤓.
-* Dona con cripto a esta dirección: `0xf253fc233333078436d111175e5a76a649890000`
-* etc.
-
-
-
----
-⌨️ con ❤️ por [Villanuevand](https://github.com/Villanuevand) 😊
+* Gracias a Nehuen Ragone, profesor de clases prácticas por sus explicaciones y apoyo en este proyecto.
