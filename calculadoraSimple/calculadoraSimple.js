@@ -34,7 +34,7 @@ function calcularResultado() {
     if (isNaN(num1) || isNaN(num2)) {
         alert("Error: Por favor, Ingrese valores numéricos válidos en ambos campos.");
         return;
-}
+}                   
 
 // eleccion de la función de acuerdo al operador
     switch (operador) {

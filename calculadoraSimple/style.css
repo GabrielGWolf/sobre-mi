@@ -4,8 +4,8 @@ body {
     /* agergue una imagen de fondo */
     background-image: url(fondo.jpg);
     background-position: center;
-    /* background-repeat: norepeat-;
-    background-clip:border-box; */
+    background-repeat: no-repeat;
+    background-clip:border-box;
     background-color:black;
     display: flex;
     justify-content: center;
@@ -25,10 +25,10 @@ h1 {
 
 /* estilo del cuadro de la calculadora */
 .Calculadora {
-    background-color:cornsilk;
+    background-color:#fffcf2;
     padding: 25px;
     border-radius: 10px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 2px 5px #ccc5b9;
     max-width: 600px;
     margin: 0 auto;
 }
@@ -39,7 +39,7 @@ input[type="number"], select, button {
     width: 90%;
     padding: 10px;
     margin-bottom: 10px;
-    border: 3px solid gray;
+    border: 3px solid #ccc5b9;
     border-radius: 15px;
     font-size: 22px;
 }
@@ -48,18 +48,18 @@ input[type="number"], select, button {
 
 /* estilo del boton Calcular*/
 button.Calcular {
-    background-color: green;
+    background-color:#403d39;
     color: white;
     cursor: pointer;
 }
 button.Calcular:hover {
-    background-color: lightgreen;
+    background-color: #eb5e28;
 }
 
 /* estilo para el boton Limpiar*/
 
 button.Limpiar {
-    background-color: blue;
+    background-color: #403d39;
     color: white;
     cursor: pointer;
     width: 50%;
@@ -67,7 +67,7 @@ button.Limpiar {
     font-size: 80%;
 }
 button.Limpiar:hover {
-    background-color: lightblue;
+    background-color: #eb5e28;
 }
 
 /* Estilo para el resultado */

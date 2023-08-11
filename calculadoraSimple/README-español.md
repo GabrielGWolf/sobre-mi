@@ -31,6 +31,8 @@ Los resultados están limitados a un máximo de 20 caracteres. Si la respuesta e
 Se realizaron pruebas con todos los operadores posibles. 
 Las pruebas realizadas fueron:
 
+se ingresaron simbolos en los campos (+, -, *, /) y devuelve el mensaje de alerta esperado
+
 ```
 2+2 = devuelve resultado correcto
 2-2 = devuelve resultado correcto
