@@ -29,14 +29,14 @@ function calcularResultado() {
     let operador = document.getElementById("operador").value;
     let Resultado = 0;
 
-// validación de datos numericos - ambos campos deben estar completos para que la calculadora funcione
+    // validación de datos numericos - ambos campos deben estar completos para que la calculadora funcione
 
     if (isNaN(num1) || isNaN(num2)) {
         alert("Error: Por favor, Ingrese valores numéricos válidos en ambos campos.");
         return;
-}                   
+    }
 
-// eleccion de la función de acuerdo al operador
+    // eleccion de la función de acuerdo al operador
     switch (operador) {
         case "+":
             Resultado = suma(num1, num2);
@@ -54,7 +54,7 @@ function calcularResultado() {
             alert("Operador no válido");
             return;
     }
-/* Limitar los resultados a un máximo de 20 caracteres */
+    /* Limitar los resultados a un máximo de 20 caracteres */
     if (Resultado > 99999999999999999999 || Resultado < -9999999999999999999) {
         alert("El resultado es demasiado largo para mostrarse en pantalla - el máximo resultado que puede mostrar esta calculadora es de 20 caracteres")
         Resultado = 0

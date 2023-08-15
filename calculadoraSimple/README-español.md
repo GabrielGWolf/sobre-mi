@@ -14,7 +14,6 @@ La calcula consta de 3 archivos conectados: Index.html, CalculadoraSimple.js y s
 
 No se necesita instalar nada especial para poder correr este programa, sólo con abrirlo en una pagina web debería ser suficiente. 
 Para escribir el codigo se utilizó Visual Studio Code. 
-
 ### Caracteristicas del Programa
 
 La calculadora permite realizar 4 operaciónes básicas: Suma, Resta, Multiplicación y División, las cuales pueden elegirse en un menu desplegable. 
