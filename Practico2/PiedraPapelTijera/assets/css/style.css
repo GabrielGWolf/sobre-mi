@@ -37,7 +37,7 @@ img {
     margin: 0 auto;
 }
 
-#Eleccion{
+.Eleccion{
     display:flex;
     background-color:#fffcf2;
     padding: 25px;
@@ -47,7 +47,7 @@ img {
     margin: 0 auto;
 }
 
-#Ganador{
+.Ganador{
     background-color:#fffcf2;
     padding: 25px;
     border-radius: 10px;
