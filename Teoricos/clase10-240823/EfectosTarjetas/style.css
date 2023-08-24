@@ -1,0 +1,50 @@
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(18, 15, 43);
+    border: 2px solid black;
+    padding: 50px;
+    /*align-items: center;*/
+    justify-content: center;
+}
+.card {
+    width: 190px;
+    height: 254px;
+    background: rgb(103,225,255);
+    transition: all 0.4s;
+    margin: 30px;
+    text-align: center;
+    line-height: 254px;
+    border-radius: 10%;
+}
+
+.card:hover {
+    cursor: pointer;
+    transform: scale(1.5);
+    background: rgb(103,151,255);
+}
+
+.first {
+    height: 100%;
+    width: 100%;
+    transition: all 0.4s;
+    opacity: 1;
+}
+.card:hover .first {
+    height: 0px;
+    opacity: 0;
+}
+.second {
+    height: 0%;
+    width: 100%;
+    opacity: 0;
+    transition: all 0.4s;
+    font-size: 0px;
+    transform: rotate(90deg) scale(-1);    
+}
+.card:hover .second {
+    opacity: 1;
+    height: 100%;
+    font-size: 1.8rem;
+    transform: rotate(0deg);
+}

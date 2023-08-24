@@ -33,55 +33,22 @@
     </div>
 
     <div class="Ganador">
-        <p id="Ganador">Ganador de esta ronda: </p>
+        <h3>Ganador de esta ronda:</h3>
+        <p id="Ganador"> </p>
         </div>
-    <div id="Resultado">
 
-        <h3>Resultado</h3>
-
-        <table>
-            <!-- Fila de la cabecera -->
-            <tr>
-                <th>N° de Jugada</th>
-                <th>Jugador</th> <!-- Celda cabecera de la columna 1 -->
-                <th>Pc</th> <!-- Celda cabecera de la columna 2 -->
-                <th>Ganador</th> <!-- Celda cabecera de la columna 3 -->
-            </tr>
-            <!-- Filas -->
-            <tr>
-                <td>1</td>
-                <td></td> 
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td>2</td>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td>3</td>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td>4</td>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td>5</td>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
-        </table>
-
-
-    </div>
+        <div id="Resultado">
+            <h3>Resultado</h3>
+            <table id="tablaResultados">
+                <tr>
+                    <th>Partida</th>
+                    <th>Elección del Jugador</th>
+                    <th>Elección de la Computadora</th>
+                    <th>Resultado</th>
+                </tr>
+            </table>
+        </div>
+        
 
     <div class="Ganador">
         <h3>Ganador global: </h3>
@@ -90,7 +57,7 @@
 
     
     <div id="Botones">
-        <button onclick="Limpiarjuego()" class="Limpiar">Limpiar</button></p>
+        <button onclick="Limpiarjuego()" class="Limpiar" id="reiniciar">Limpiar</button></p>
     </div>
 <script src="./assets/js/script.js"></script>
 </body>
