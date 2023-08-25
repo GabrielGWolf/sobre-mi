@@ -67,13 +67,16 @@ function determinarGanador() {
     console.log("empates = " + empate);
     console.log("jugadas realizadas = " + jugadasRealizadas);
 
-    if (jugadasRealizadas === limiteJugadas) {
+    if (victorias === 3 || derrotas === 3) {
         document.getElementById("jugar").style.pointerEvents = "none"
+        document.getElementById("Piedra").style.pointerEvents = "none"
+        document.getElementById("Papel").style.pointerEvents = "none"
+        document.getElementById("Tijera").style.pointerEvents = "none"
         if (victorias > derrotas) {
-            document.getElementById("ganadorGlobal").innerHTML = "Ganador Global: Jugador";
+            document.getElementById("ganadorGlobal").innerHTML = "Jugador";
             alert("Ganador Global: Jugador");
         } else if (derrotas > victorias) {
-            document.getElementById("ganadorGlobal").innerHTML = "Ganador Global: Computadora";
+            document.getElementById("ganadorGlobal").innerHTML = "Computadora";
             alert("Ganador Global: Computadora");
         }
     }
@@ -110,7 +113,10 @@ function Limpiarjuego() {
     console.log("jugadas = " + jugadasRealizadas)
            
     // Habilitar los botones nuevamente
-    document.getElementById("jugar").style.pointerEvents = "auto";
+    document.getElementById("jugar").style.pointerEvents = "auto"
+    document.getElementById("Piedra").style.pointerEvents = "auto"
+    document.getElementById("Papel").style.pointerEvents = "auto"
+    document.getElementById("Tijera").style.pointerEvents = "auto";
 
     tablaResultados = document.getElementById("tablaResultados");
     while (tablaResultados.rows.length > 1) {
