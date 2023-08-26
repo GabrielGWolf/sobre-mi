@@ -23,7 +23,8 @@ Quedan pendientes para futuras oportunidades.
 
 Se aplicó el formato Grid para la pagina en general, tomando 3 columnas. La primera para los datos del usuario, la segunda para el juego en sí y los botones necesarios, y la tercera para la visualización de resultados en forma de tabla.
 En cuanto a los botones de eleccion de las opciones del usuario (Piedra, Papel, Tijera), se aplican colores diferentes y efectos para hacerlos atractivos en el :hover:.
-En cuanto a los botones de funcionalidades (Iniciar el juego, Jugar y Limpiar), se aplican efectos de color y transformación en el :hover:  
+En cuanto a los botones de funcionalidades (Iniciar el juego, Jugar y Limpiar), se aplican efectos de color y transformación en el :hover:
+
 
 #### Paleta de colores 
 
@@ -31,6 +32,7 @@ Utilizando la fuente: https://coolors.co elegí 2 paletas de colores para trabaj
 - Fondos y colores de la pagina: https://coolors.co/palette/0a0908-22333b-eae0d5-c6ac8f-5e503f 
 - Botones: https://coolors.co/palette/011627-fdfffc-2ec4b6-e71d36-ff9f1c
 
+Las paletas de colores fueron elegidas por Baltazar (mi sobrino - 8 años de edad)
 
 ### JS
 
@@ -43,7 +45,14 @@ Se aplican funciones para:
 - Crear la tabla de resultados, que a su vez agrega una nueva linea con cada iteración.
 - Habilitar o deshabilitar el sector de juego luego del ingreso del nombre del usuario. 
 - Habilitar o deshabilitar el PopUp con el resultado final.
+- Agregué un contador con formato  (jugador) 0 | 0 (computadora)
 
+## Pruebas realizadas
+
+Se realizó prueba de todas las funcionalidades 
+Se probó con 10 juegos consecutivos.
+Testers: Carolina (mi esposa) Diana (mi prima) Baltazar (mi sobrino)
+Ayuda con el diseño web: Germán "Darki" Lóepz - Diseñador Web
 
 
 
