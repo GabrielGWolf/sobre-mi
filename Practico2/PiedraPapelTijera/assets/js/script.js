@@ -44,8 +44,6 @@ function determinarGanador() {
     let jugadaComputadora = obtenerJugadaComputadora()
     let pActual = 0
     document.getElementById("eleccionDelUsuario").innerHTML = ""
-    console.log("usuario " + jugadaUsuario);
-    console.log("pc " + jugadaComputadora);
     if (jugadaUsuario === 0) {
         document.getElementById("Mensajes").innerHTML = "Debes elegir una opción antes de jugar"
     } else if (
@@ -55,7 +53,6 @@ function determinarGanador() {
         derrotas++;
         jugadasRealizadas++;
         pActual = "Perdiste"
-        /* console.log("Perdiste") */
         document.getElementById("Ganador").innerHTML = "Ganador de esta ronda: Computadora";
     } else if (
         (jugadaUsuario === "Piedra" && jugadaComputadora === "Tijera") ||
@@ -64,19 +61,12 @@ function determinarGanador() {
         victorias++;
         jugadasRealizadas++;
         pActual = "Ganaste"
-        /* console.log("Ganaste"); */
         document.getElementById("Ganador").innerHTML = "Ganador de esta ronda: Jugador";
     } else {
         empate++
         pActual = "Empate"
-        /* console.log("Empate") */
         document.getElementById("Ganador").innerHTML = "Esta ronda no hay ganador, es un empate. ¡¡Sigue jugando!!";
     }
-
-    console.log("victorias = " + victorias);
-    console.log("derrotas = " + derrotas);
-    console.log("empates = " + empate);
-    console.log("jugadas realizadas = " + jugadasRealizadas);
 
     if (victorias === 3 || derrotas === 3) {
         document.getElementById("jugar").style.pointerEvents = "none"
@@ -86,11 +76,9 @@ function determinarGanador() {
         mostrarPopup()
         if (victorias > derrotas) {
             document.getElementById("ganadorGlobal").innerHTML = "¡Ganaste!";
-            /* alert("Ganador Global: Jugador"); */
-        } else if (derrotas > victorias) {
+            } else if (derrotas > victorias) {
             document.getElementById("ganadorGlobal").innerHTML = "Lamentablemnte perdiste, ¡pero puedes intentarlo nuevamente!";
-            /* alert("Ganador Global: Computadora"); */
-        }
+            }
     }
 
     const tablaResultados = document.getElementById("tablaResultados");
@@ -122,11 +110,6 @@ function Limpiarjuego() {
     document.getElementById("Mensajes").innerHTML = ""
     document.getElementById("Ganador").innerHTML = ""
     document.getElementById("eleccionDelUsuario").innerHTML = ""
-
-/*     console.log("victorias = " + victorias)
-    console.log("derrotas = " + derrotas)
-    console.log("empates = " + empate)
-    console.log("jugadas = " + jugadasRealizadas) */
 
     // Habilitar los botones nuevamente
     document.getElementById("jugar").style.pointerEvents = "auto"
