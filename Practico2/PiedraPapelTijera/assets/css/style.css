@@ -1,3 +1,17 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #0A0908;
+    /* background-image: url(fondo.jpg);
+    background-position: center; */
+    /* background-repeat: no-repeat; */
+    background-clip: border-box;
+    background-color: #EAE0D5;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
 #Mensajes {
     text-align: center;
     font-size: larger;
@@ -11,7 +25,7 @@
     grid-template-columns: 1fr 1fr 1fr;
     gap: 20px;
     padding: 20px;
-    background-color: antiquewhite;
+    background-color: #EAE0D5;
 }
 
 .columna1 {
@@ -35,18 +49,7 @@
     box-sizing: border-box;
 }
 
-body {
-    font-family: Arial, sans-serif;
-    /* background-image: url(fondo.jpg);
-    background-position: center; */
-    /* background-repeat: no-repeat; */
-    background-clip: border-box;
-    background-color: #fffcf2;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-}
+
 
 /* Estilo para el título */
 h1 {
@@ -54,14 +57,14 @@ h1 {
     color: black;
     font-weight: bolder;
     text-shadow: 4px 4px 5px gray;
-    background-color: #fffcf2
+    background-color: #EAE0D5
 }
 
 .Titulos {
     text-align: center;
     font-size: large;
     font-weight: bolder;
-    background-color: #fffcf2
+    background-color: #EAE0D5
 }
 
 img {
@@ -73,62 +76,45 @@ img {
 
 
 #Datos {
-    background-color: #fffcf2;
+    background-color: #EAE0D5;
     padding: 25px;
     border-radius: 10px;
-    box-shadow: 0 2px 5px #ccc5b9;
+    /* box-shadow: 0 2px 5px #0A0908; */
     max-width: 600px;
     margin: 0 auto;
 }
 
 .Eleccion {
     display: flex;
-    background-color: #fffcf2;
+    background-color: #EAE0D5;
     padding: 25px;
     border-radius: 10px;
-    box-shadow: 0 2px 5px #ccc5b9;
+    /* box-shadow: 0 2px 5px #0A0908; */;
     max-width: 600px;
     margin: 0 auto;
 }
 
 .Ganador {
     display: flex;
-    background-color: #fffcf2;
+    background-color: #EAE0D5;
     padding: 50px;
     border-radius: 10px;
-    box-shadow: 0 2px 5px #ccc5b9;
+    /* box-shadow: 0 2px 5px #0A0908; */
     max-width: auto;
     margin: auto;
 }
 
 #ganadorGlobal {
-    display: flex;
-    background-color: #fffcf2;
-    padding: 50px;
-    border-radius: 10px;
-    box-shadow: 0 2px 5px #ccc5b9;
-    max-width: auto;
-    margin: auto;
-    text-decoration: red;
-
+    font-size: larger;
+    font-weight: bolder;
 }
 
 #Resultado {
     display: flex;
-    background-color: #fffcf2;
+    background-color: #EAE0D5;
     padding: 25px;
     border-radius: 10px;
-    box-shadow: 0 2px 5px #ccc5b9;
-    max-width: 600px;
-    margin: 0 auto;
-}
-
-#Botones {
-    display: flex;
-    background-color: #fffcf2;
-    padding: 25px;
-    border-radius: 10px;
-    box-shadow: 0 2px 5px #ccc5b9;
+    /* box-shadow: 0 2px 5px #0A0908; */
     max-width: 600px;
     margin: 0 auto;
 }
@@ -158,20 +144,21 @@ button {
     font-size: 22px;
 }
 
-
-/* estilo para el boton Limpiar*/
+/* estilo para los botones*/
 
 button {
-    background-color: #403d39;
+    background-color: #22333B;
     color: white;
     cursor: pointer;
     width: 100%;
-    height: 100%;
-    font-size: 100%;
+    height: auto;
+    font-size: 140%;
+    padding: 5px;
+    margin: 5px;
 }
 
 button:hover {
-    background-color: #eb5e28;
+    background-color: #C6AC8F;
 }
 
 /* Estilo para el resultado */
@@ -187,9 +174,12 @@ p#Resultado {
     font-weight: bold
 }
 
+/* Tabla de resultados*/
+
 table {
-    border-collapse: collapse;
+    border-collapse: separate;
     border: 1px solid #ccc;
+
 }
 
 td,
@@ -198,9 +188,11 @@ th {
 }
 
 th {
-    background: #000;
+    background: #22333B;
     color: #fff;
-    text-transform: uppercase;
+    text-transform:initial;
+    text-align: center;
+    text-size-adjust:inherit;
 }
 
 td {
@@ -219,29 +211,30 @@ td {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: #fffcf2(0, 0, 0, 0.5);
+    background-color: #EAE0D5(0, 0, 0, 0.5);
     justify-content: center;
     align-items: center;
     z-index: 999;
 }
 
 .popup-contenido {
-    background-color: white;
+    background-color: whitesmoke;
     padding: 20px;
     border-radius: 8px;
     text-align: center;
 }
 
 .popup button {
-    background-color: #403d39;
+    background-color: #22333B;
     color: white;
     cursor: pointer;
     margin-top: 10px;
     padding: 8px 16px;
     border: none;
     border-radius: 4px;
+    
 }
 
 .popup button:hover {
-    background-color: #eb5e28;
+    background-color: #C6AC8F;
 }
