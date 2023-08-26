@@ -158,8 +158,56 @@ button {
 }
 
 button:hover {
-    background-color: #C6AC8F;
+    background-color: #FF9F1C;
+    transform: scale(1.05);
 }
+
+
+#Piedra {
+    background-color: #2EC4B6;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#Piedra:hover {
+    background-color: #228e83;
+    transform: scale(1.20); 
+}
+
+#Papel {
+    background-color: #E71D36; 
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#Papel:hover {
+    background-color: #84121f;
+    transform: scale(1.20); 
+}
+
+#Tijera {
+    background-color: #FF9F1C; 
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#Tijera:hover {
+    background-color: #9a6214;
+    transform: scale(1.20); 
+}
+
 
 /* Estilo para el resultado */
 p#Resultado {
@@ -236,5 +284,5 @@ td {
 }
 
 .popup button:hover {
-    background-color: #C6AC8F;
+    background-color: #FF9F1C;
 }
