@@ -39,6 +39,12 @@ function obtenerJugadaComputadora() {
 
 /* DETERMINAR GANADOR */
 
+function actualizarContadores() {
+    document.getElementById("contadorVictorias").textContent = "Jugardor " + victorias;
+    document.getElementById("contadorDerrotas").textContent = derrotas + " Computadora";
+}
+
+
 function determinarGanador() {
     document.getElementById("jugar").style.pointerEvents = "none"
     let jugadaComputadora = obtenerJugadaComputadora()
@@ -67,6 +73,7 @@ function determinarGanador() {
         pActual = "Empate"
         document.getElementById("Ganador").innerHTML = "Esta ronda no hay ganador, es un empate. ¡¡Sigue jugando!!";
     }
+    actualizarContadores()
 
     if (victorias === 3 || derrotas === 3) {
         document.getElementById("jugar").style.pointerEvents = "none"
@@ -81,6 +88,9 @@ function determinarGanador() {
             }
     }
 
+
+
+    
     const tablaResultados = document.getElementById("tablaResultados");
     const nuevaFila = tablaResultados.insertRow();
 
@@ -107,14 +117,16 @@ function Limpiarjuego() {
 
     // Restablecer el contenido en la página
     document.getElementById("ganadorGlobal").innerHTML = "Juega de nuevo";
-    document.getElementById("Mensajes").innerHTML = ""
-    document.getElementById("Ganador").innerHTML = ""
-    document.getElementById("eleccionDelUsuario").innerHTML = ""
+    document.getElementById("Mensajes").innerHTML = "";
+    document.getElementById("Ganador").innerHTML = "Tabla de Resultados";
+    document.getElementById("eleccionDelUsuario").innerHTML = "";
+    document.getElementById("contadorVictorias").textContent = 0;
+    document.getElementById("contadorDerrotas").textContent = 0;
 
     // Habilitar los botones nuevamente
-    document.getElementById("jugar").style.pointerEvents = "auto"
-    document.getElementById("Piedra").style.pointerEvents = "auto"
-    document.getElementById("Papel").style.pointerEvents = "auto"
+    document.getElementById("jugar").style.pointerEvents = "auto";
+    document.getElementById("Piedra").style.pointerEvents = "auto";
+    document.getElementById("Papel").style.pointerEvents = "auto";
     document.getElementById("Tijera").style.pointerEvents = "auto";
 
     tablaResultados = document.getElementById("tablaResultados");

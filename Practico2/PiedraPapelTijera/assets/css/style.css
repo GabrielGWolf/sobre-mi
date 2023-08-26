@@ -95,13 +95,16 @@ img {
 }
 
 .Ganador {
-    display: flex;
+    display: block;
     background-color: #EAE0D5;
     padding: 50px;
     border-radius: 10px;
     /* box-shadow: 0 2px 5px #0A0908; */
     max-width: auto;
     margin: auto;
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
 }
 
 #ganadorGlobal {
@@ -285,4 +288,17 @@ td {
 
 .popup button:hover {
     background-color: #FF9F1C;
+}
+
+
+.Ganador h3 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.Ganador h3 span {
+    font-size: 24px;
+    font-weight: bolder;
+    color: #333;
+    margin: 0 5px;
 }
