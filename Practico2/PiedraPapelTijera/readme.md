@@ -1,7 +1,7 @@
 # Piedra Papel o Tijera
 Es un juego simple de opciones multiples, que suele jugarse con las manos. 
 
-## Para el Usuario
+## Para el Usuario:
 
 ### Reglas
 
@@ -54,5 +54,10 @@ Se probó con 10 juegos consecutivos.
 Testers: Carolina (mi esposa) Diana (mi prima) Baltazar (mi sobrino)
 Ayuda con el diseño web: Germán "Darki" Lóepz - Diseñador Web
 
-
+## Comentarios
+Me quedaron muchas cosas en el tintero que me gustaría haber llegado a mejorar antes de la entrega final. 
+Me hubiera gustado mejorar lo atiente a las alertas de la pagina, validación de errores y la limpieza de la interfaz
+Tambien tenía ganas de modificar aún más el juego, agregando una pantalla previa que explique las reglas, cambiando el clasico "piedra papel tijera" por un "lanza, esapada, escudo" (que mantiene el mismo sistema y reglas, pero cambia sólo las opciones que vé el usuario.)
+También me hubiera gustado mejorar mucho más la parte gráfica. Quería intentar agregar SweetAlerts y cambiar las animaciones utilizadas.
+Lamentablemente no llegúe con el tiempo para hacer todos estos cambios. 
 
