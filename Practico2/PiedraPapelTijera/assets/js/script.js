@@ -1,6 +1,5 @@
 /* USUARIO */
 
-
 function nombreJugador() {
     let nombre = document.getElementById("nombre").value;
     let apellido = document.getElementById("apellido").value;
@@ -44,7 +43,6 @@ function actualizarContadores() {
     document.getElementById("contadorDerrotas").textContent = derrotas + " Computadora";
 }
 
-
 function determinarGanador() {
     document.getElementById("jugar").style.pointerEvents = "none"
     let jugadaComputadora = obtenerJugadaComputadora()
@@ -84,13 +82,10 @@ function determinarGanador() {
         if (victorias > derrotas) {
             document.getElementById("ganadorGlobal").innerHTML = "¡Ganaste!";
             } else if (derrotas > victorias) {
-            document.getElementById("ganadorGlobal").innerHTML = "Lamentablemnte perdiste, ¡pero puedes intentarlo nuevamente!";
+            document.getElementById("ganadorGlobal").innerHTML = "Lamentablemente perdiste, ¡pero puedes intentarlo nuevamente!";
             }
     }
-
-
-
-    
+ 
     const tablaResultados = document.getElementById("tablaResultados");
     const nuevaFila = tablaResultados.insertRow();
 
